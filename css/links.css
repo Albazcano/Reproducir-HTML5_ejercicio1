@@ -1,0 +1,45 @@
+body{
+background-color:  lightgray;
+}
+
+h1 {
+margin-left: 50px;
+}
+
+h2 {
+margin-top: 5px;
+width: 1000px;
+margin-left: 50px;
+height: 50px;
+padding-top: 20px;
+background-color: gray;
+color: white ;
+font-weight: 500;
+}
+
+.paragrah {
+display: flex;
+flex-direction: row;
+justify-content: flex-start;
+}
+
+.logo {
+margin-left: 100px;
+}
+
+.firstParagraph {
+margin-right: 400px;
+margin-left: 100px;
+text-align: justify;
+text-indent: 40px;
+}
+
+.secondParagraph {
+margin-right: 400px;
+margin-left: 100px;
+text-align: justify;
+text-indent: 40px;
+}
+
+
+
