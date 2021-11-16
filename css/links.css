@@ -17,7 +17,7 @@ color: white ;
 font-weight: 500;
 }
 
-#paragraph {
+#firstParagraph {
 display: flex;
 flex-direction: row;
 justify-content: flex-start;
@@ -25,21 +25,25 @@ justify-content: flex-start;
 
 .logo {
 margin-left: 100px;
+width: 200px;
+height: 200px;
 }
 
-.firstParagraph {
-margin-right: 400px;
-margin-left: 100px;
+.justifiedText {
+margin-right: 450px;
+margin-left: 25px;
 text-align: justify;
 text-indent: 40px;
 }
 
-.secondParagraph {
-    margin-right: 400px;
-    margin-left: 100px;
-    text-align: justify;
-    text-indent: 40px;
+.leftText {
+margin-right: 450px;
+margin-left: 100px;
+text-align: start;
+text-indent: 40px;
 }
+
+
 
 
 
