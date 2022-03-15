@@ -7,90 +7,66 @@
     <title>Practica2</title>
     <link rel="stylesheet" href="./css/index.css">
 </head>
-<body>
- <header>
-     <h1> Colores de fondo</h1>
-     </header> 
-<main>
-    <section>
-        <table>
-            <thead> 
-                <td colspan="6">
-                    Colores
-                </td>
-            </thead>
-            <tbody>
-            <tr> 
-                <td class="td_black">
-                    black
-                </td>
-                <td class="td_teal">
-                    teal
-                </td>
-                <td class="td_blue">
-                    blue
-                </td>
-                <td class="td_navy">
-                    navy
-                </td>
-                <td class="td_navy">
-                    lime
-                </td>
-                <td class="td_white">
-                    white
-                </td>
-            </tr>
-            <tr>
-                <td class="td_purple">
-                    purple
-                </td>
-                <td class="td_yellow">
-                    yellow
-                </td>
-                <td class="td_olive">
-                    olive
-                </td>
-                <td class="td_red">
-                    red
-                </td>
-                <td class="td_maroon">
-                    maroon
-                </td>
-                <td class="td_gray">
-                    grey
-                </td>
-            </tr>
-            <tr>
-                <td class="td_olive">
-                    olive
-                </td>
-                <td class="td_red">
-                    red
-                </td>
-                <td class="td_fuchsia">
-                    fuchsia
-                </td>
-                <td class= "td_green" colspan="3">
-                    green
-                </td>
-            </tr>
-        </tbody>
-        </table>
-    </section>
-</main>
-<footer>
-
-  <section>
-    <h1>Colores de letra</h1>
-  </section>
-
-  <section id="text_footer"> 
-      <span id="text_black">black </span> <span id="text_teal">teal </span> <span id="text_blue">blue</span> <span id="text_navy">navy</span> <span id="text_lime">lime</span> <span id="text_white">white</span> <span id="text_purple">purple</span> <span id="text_yellow">yellow</span> <span id="text_olive">olive</span> <span id="text_red">red</span> <span id="text_maroon">maroon</span> <span id="text_navy">navy</span> <span id="text_fuchsia">fuchsia</span> <span id="text_green">green</span> <span id="text_aqua">aqua</span> <span id="text_silver">silver</span>
-</section>
-
-</footer>
-
-<script src="src/app.js" type="module"></script>
-
+<body> 
+    <main>
+        <section id="colored-squares">
+            <h1>Colores de fondo</h1>
+            <div class="box">
+                <div class="row">
+                    <div class="cells xxl green" id="colors">Colors</div>
+                </div>
+                <div class="row">
+                    <div class="cells md black" id="black">black</div>
+                    <div class="cells md teal" id="teal">teal</div>
+                    <div class="cells md blue" id="blue">blue</div>
+                    <div class="cells xs navy" id="navy">navy</div>
+                    <div class="cells lg lime" id="lime">lime</div>
+                    <div class="cells xs white" id="white">white</div>
+                </div>
+                <div class="row">
+                    <div class="cells md purple" id="purple">purple</div>
+                    <div class="cells md yellow" id="yellow">yellow</div>
+                    <div class="cells md olive" id="olive">olive</div>
+                    <div class="cells xs red" id="red">red</div>
+                    <div class="cells lg brown" id="brown">brown</div>
+                    <div class="cells xs gray" id="gray">gray</div>
+                </div>
+                <div class="row">
+                    <div class="cells md olive" id="second-olive">olive</div>
+                    <div class="cells md red" id="second-red">red</div>
+                    <div class="cells md fuchsia" id="fuchsia">fuchsia</div>
+                    <div class="cells xl green" id="green">green</div>
+                </div>
+            </div>
+        </section>
+        <section id="colored-words">
+            <h1>Colores de letra</h1>
+            <div id="words-box">
+                <div class="words" id="w-black">black</div>
+                <div class="words" id="w-teal">teal</div>
+                <div class="words" id="w-blue">blue</div>
+                <div class="words" id="w-navy">navy</div>
+                <div class="words" id="w-lime">lime</div>
+                <div class="words" id="w-white">white</div>
+                <div class="words" id="w-purple">purple</div>
+                <div class="words" id="w-yellow">yellow</div>
+                <div class="words" id="w-olive">olive</div>
+                <div class="words" id="w-red">red</div>
+                <div class="words" id="w-brown">brown</div>
+                <div class="words" id="w-gray">gray</div>
+                <div class="words" id="w-fuchsia">fuchsia</div>
+                <div class="words" id="w-green">green</div>
+                <div class="words" id="w-aqua">aqua</div>
+                <div class="words" id="w-silver">silver</div>
+            </div>
+            <div id="demo"></div>
+            <div class="box-buttons">
+                <button id="hide-btn">Ocultar</button>
+                <button id="show-btn">Mostrar</button>
+            </div>
+        </section> 
+    </main>
+    
+    <script src="scripts/app.js" type="module"></script>
 </body>
 </html>
