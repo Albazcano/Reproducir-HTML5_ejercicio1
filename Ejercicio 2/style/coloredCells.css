@@ -1,40 +1,40 @@
-#colored-squares {
+#coloredCells {
     font-weight: bold;
     margin: 0 auto;
 }
 
-#colored-squares .box {
+#coloredCells .box {
     margin: 0.6rem auto;
     width: 70%;
 }
 
-#colored-squares .row {
+#coloredCells .row {
     display: flex;
 }
 
-#colored-squares .cells {
+#coloredCells .cells {
     height: 3rem;
     display: flex;
     align-items: center;
 }
 
-#colored-squares .box .xs {
+#coloredCells .box .xs {
     width: 15%;
 }
 
-#colored-squares .box .md {
+#coloredCells .box .md {
     width: 16.6%;
 }
 
-#colored-squares .box .lg {
+#coloredCells .box .lg {
     width: 20%;
 }
 
-#colored-squares .box .xl {
+#coloredCells .box .xl {
     width: 50%;
 }
 
-#colored-squares .box .xxl {
+#coloredCells .box .xxl {
     width: 100%;
     display: flex;
     align-items: start;

@@ -13,7 +13,7 @@
 
 #wordsColored #words-box >* {
     font-size: 32px;
-    margin: 6px;
+    margin: 1px;
     cursor: pointer;
 }
 
