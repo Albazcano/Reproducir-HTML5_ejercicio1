@@ -6,9 +6,3 @@ Los Coders tendrán que reproducir una imagen dada utilizando HTML 5 y CSS 3
  - Aplicar buenas practicas añadiendo elementos semánticos
 
  Material: [Material](https://docs.google.com/document/d/1GooV2LrxqGaKQYomn6bDPav_8wVNX7l8Up6WWubsRXg/edit?usp=sharing)
-
-
-## Autores ✒️
-
-* **Alba Azcano** - *Trabajo y documentación* - [Albazcano](https://github.com/Albazcano)
- 
