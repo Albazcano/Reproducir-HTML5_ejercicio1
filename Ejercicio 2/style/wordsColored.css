@@ -1,0 +1,38 @@
+#wordsColored {
+    margin: 0 auto;
+}
+
+#wordsColored #words-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    height: 75px;
+    width: 85%; 
+}
+
+#wordsColored #words-box >* {
+    font-size: 32px;
+    margin: 6px;
+    cursor: pointer;
+}
+
+#wordsColored .box-buttons {
+    margin: 1rem auto;
+    text-align: center;
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#wordsColored .box-buttons button {
+    border: 1px solid;
+    border-radius: 0.4rem;
+    background: #2222;
+    color: #ffffff;
+    font-size: 1rem;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    cursor: pointer;
+}

@@ -1,24 +1,4 @@
-/*@import url(./cabeceras-style.css);*/
-@import url(./tabla.css);
-@import url(./primeralineatabla-style.css);
-@import url(./coloresceldas.css);
-@import url(./coloresfooter.css);
-body{
-    background-color: bisque;
-}
-header{
-display:flex;
-justify-content: center;
-align-content: center;
-}
-main{
-    display:flex;
-    justify-content: center;
-    align-content: center;
-}
-footer{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+@import url(coloredCells.css);
+@import url(backgroundCells.css);
+@import url(wordsColored.css);
+@import url(colorsList.css); 
