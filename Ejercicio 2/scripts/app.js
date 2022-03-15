@@ -1,5 +1,5 @@
-import {changeColor} from "./colored-squares.js";
-import {hideWords, showWords} from "./colored-words.js";
+import {swapColor} from "./tableColors.js";
+import {coverWords, displayWords} from "./wordsColors.js";
 
 function selectCells() {
     let cells = document.getElementsByClassName("cells");
@@ -7,7 +7,7 @@ function selectCells() {
 
     arrCells.forEach(cell => {
       cell.addEventListener("click", () => {
-          changeColor(cell.id);
+          swapColor(cell.id);
       }); 
     });
 
@@ -19,7 +19,7 @@ function selectCells() {
     hideBtn.addEventListener("click", () => {
         arrWords.forEach((word, i) => {
             setTimeout(() => {
-                hideWords(word);
+                coverWords(word);
             }, i * 500);
         })
     })
@@ -27,14 +27,14 @@ function selectCells() {
     showBtn.addEventListener("click", () => {
         arrWords.forEach((word, i) => {
             setTimeout(() => {
-                showWords(word);
+                displayWords(word);
             }, i * 500);
         })
     })
 
     arrWords.forEach(word => {
         word.addEventListener("click", function () {
-            hideWords();
+            coverWords();
         })
     })
 
